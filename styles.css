@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: auto;
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    padding: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+}
+
+.scores > div {
+    border: 1px solid black;
+    width: 250px;
+    font-size: 150px;
+}
+
+.player-score {
+    color: blue;
+}
+
+.computer-score {
+    color: red;
+}
+
+.gestures {
+    display: flex;
+    justify-content: center;
+    
+}
+
+img {
+    width: 50%;
+    margin: auto;
+    max-height: 200px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 50%;
+    /* flex: 1 1 0; */
+}
+
+.selection > p {
+    height: auto;
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 16px;
+}
+
+.selection > p:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+button {
+    font-size: 50px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
